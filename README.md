@@ -31,9 +31,9 @@ This project demonstrates a Dockerized setup for a full-stack application with a
 
 ## Getting Started
 
-# Clone this repository
- git clone git@github.com:TaranaGit/Dockerized-Node.js-React-Demo.git
- cd Dockerized-Node.js-React-Demo
+## Clone this repository
+ --git clone git@github.com:TaranaGit/Dockerized-Node.js-React-Demo.git
+ --cd Dockerized-Node.js-React-Demo
 
 ## Running the Application
 
