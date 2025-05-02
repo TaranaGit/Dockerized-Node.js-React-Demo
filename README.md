@@ -31,7 +31,7 @@ This project demonstrates a Dockerized setup for a full-stack application with a
 
 ## Getting Started
 
-1. Clone this repository
+# Clone this repository
  git clone git@github.com:TaranaGit/Dockerized-Node.js-React-Demo.git
  cd Dockerized-Node.js-React-Demo
 
@@ -44,17 +44,17 @@ docker-compose up --build
 ```
 This will:
 
-Build images for both frontend and backend
+- Build images for both frontend and backend
 
-Create and start two containers
+- Create and start two containers
 
-Map ports:
+- Map ports:
 
 Frontend: localhost:3000
 
 Backend: localhost:4000
 
-After startup, you can access:
+- After startup, you can access:
 
 React app: http://localhost:3000
 
@@ -63,10 +63,10 @@ Express API: http://localhost:4000
 ## Development Workflow
 
 During development:
-The frontend container uses npm start which typically includes hot-reloading
+- The frontend container uses npm start which typically includes hot-reloading
 
-The backend container uses nodemon for automatic restarts on file changes
+- The backend container uses nodemon for automatic restarts on file changes
 
-Both services use volume mounts for live code updates:
+- Both services use volume mounts for live code updates
 
-Changes to local files are reflected in the containers
+- Changes to local files are reflected in the containers
